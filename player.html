@@ -105,8 +105,8 @@
     const channelId = urlParams.get('channel');
 //    const streamUrl = `manifest.php?id=${channelId}`;
 //    const licenseUrl = `lic.php?id=${channelId}`;
-    const streamUrl = `https://myplay.website/play/tplay/manifest.php?id=${channelId}`;
-    const licenseUrl = `https://myplay.website/play/tplay/lic.php?id=${channelId}`;
+    const streamUrl = `http://myplay.website/play/tplay/manifest.php?id=${channelId}`;
+    const licenseUrl = `http://myplay.website/play/tplay/lic.php?id=${channelId}`;
 
     fetchLicenseData(licenseUrl)
       .then(licenseData => {
